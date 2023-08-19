@@ -55,6 +55,13 @@ void ozungDuTanyshtyr03({
 void main(List<String> args) {
   ozungDuTanyshtyr03(name: 'Uzer1', univer: 'MIT', salmagym: 80, boyum: 178);
 
+  ozumDuTaanyshtyraiyn06(
+    name: 'Aiganish',
+    university: 'OGIPI',
+    salmagym: 70,
+    boyum: 170,
+  );
+
   ozungDuTanyshtyr03(
     name: 'Uzer2',
     univer: 'KIOTO',
@@ -65,8 +72,32 @@ void main(List<String> args) {
   );
 
   birgeBirdiKosh();
+
+  altygaAltynyKosh();
+
+  jetigeJetiniKosh();
 }
 
 void birgeBirdiKosh() {
   print('1+1=${1 + 1}');
+}
+
+void altygaAltynyKosh() {
+  print('6+6=${6 + 6}');
+}
+
+void jetigeJetiniKosh() {
+  print('7+7=${7 + 7}');
+}
+
+void ozumDuTaanyshtyraiyn06({
+  required String name,
+  int jashtamyn = 36,
+  String meken = 'Kyrgyzstan',
+  required String university,
+  required num salmagym,
+  required num boyum,
+}) {
+  print(
+      'Menin atym $name.Men $jashtamyn jashtamyn.Mekenim $meken.Men $university okuyum.Menin  salmagym $salmagym.Menin boyum $boyum,');
 }
